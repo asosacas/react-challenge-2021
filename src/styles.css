@@ -1,4 +1,38 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pokeCard {
+  border: solid black;
+  min-width: 300px;
+  box-shadow: 5px 5px;
+  background-color: rgb(255, 200, 164);
+}
+
+.pokeCardHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.pokeCardContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: black;
 }
