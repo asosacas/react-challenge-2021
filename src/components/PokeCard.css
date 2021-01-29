@@ -1,0 +1,17 @@
+.pokeCard {
+  border: solid black;
+  min-width: 300px;
+  box-shadow: 5px 5px;
+  background-color: rgb(255, 200, 164);
+}
+
+.pokeCardHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.pokeCardContent {
+  display: flex;
+  justify-content: space-evenly;
+}
